@@ -6,7 +6,6 @@
 
 A big thank to JM- x -BANANIA-#7665 for the prototype. 
 
-![Alt Text](https://cdn.discordapp.com/attachments/679714791660453936/687421757887479855/image0.jpg)
 
 A simple starter project for playing b4w with webpack and recent css framework.
 
