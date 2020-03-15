@@ -1,4 +1,4 @@
-# b4w example
+# B4w starter example
 
 
 ![Alt Text](https://i.imgur.com/dpp1drL.gif)
