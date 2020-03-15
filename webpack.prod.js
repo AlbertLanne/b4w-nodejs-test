@@ -1,10 +1,10 @@
 const webpack = require('webpack');
 
 const config = {
-    entry: './my_project.js',
+    entry: './public/my_project.js',
     output: {
         path: __dirname,
-        filename: 'my_project.bundle.js'
+        filename: './public/my_project.bundle.js'
     },
     devtool: 'source-map',
     module: {
@@ -16,8 +16,8 @@ const config = {
            })
     ],
     devServer: {
-        index: 'my_project.html',
-        openPage: 'my_project.html',
+        index: './public/index.html',
+        openPage: './public/index.html',
         open: true
     }
 };

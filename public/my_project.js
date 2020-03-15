@@ -19,7 +19,6 @@ var _previous_selected_obj = null;
 var DEBUG = (m_ver.type() == "DEBUG");
 
 // automatically detect assets path
-var APP_ASSETS_PATH = m_cfg.get_assets_path();
 
 /**
  * export the method to initialize the app (called at the bottom of this file)
@@ -35,7 +34,7 @@ function init() {
 }
 
 /**
- * callback executed when the app is initialized 
+ * callback executed when the app is initialized
  */
 function init_cb(canvas_elem, success) {
 
@@ -60,7 +59,7 @@ function init_cb(canvas_elem, success) {
  * load the scene data
  */
 function load() {
-    m_data.load(APP_ASSETS_PATH + "my_project.json", load_cb, preloader_cb);
+    m_data.load("./my_project.json", load_cb, preloader_cb);
 }
 
 /**
