@@ -4,7 +4,7 @@ const config = {
     entry: './public/my_project.js',
     output: {
         path: __dirname,
-        filename: './public/my_project.bundle.js'
+        filename: './public/build/my_project.bundle.js'
     },
     devtool: 'source-map',
     module: {
