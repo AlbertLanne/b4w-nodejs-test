@@ -1,13 +1,15 @@
 # b4w example
 
+---
 
 ![Alt Text](https://i.imgur.com/dpp1drL.gif)
 
 
-A big thank to JM- x -BANANIA-#7665 for the prototype. 
+A big thank to 'JM- x -BANANIA-#7665' for the initial design of the webpage. 
 
+---
 
-A simple starter project for playing b4w with webpack and recent css framework.
+#### A simple starter project for playing b4w with webpack and recent css framework into a product page.
 
 To get started:
 
@@ -16,7 +18,7 @@ To get started:
     ```bash
     git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
 
-    cd tailwindcss-playground
+    cd b4w-webpack-demo
     ```
 
 2. Install the dependencies:
@@ -31,6 +33,7 @@ To get started:
 
 3. Start the development server:
 
+- This command also generate a /public/build/ folder with the CSS and b4w module file use into the html file. 
     ```bash
     # Using npm
     npm run serve
@@ -41,13 +44,13 @@ To get started:
 
     Now you should be able to see the project running at localhost:8080.
 
+
 4. Open `public/index.html` in your editor and start experimenting!
+
 
 ## Building for production
 
-Even though this isn't necessarily a starter kit for a proper project, we've included an example of setting up both [Purgecss](https://www.purgecss.com/) and [cssnano](https://cssnano.co/) to optimize your CSS for production.
-
-To build an optimized version of your CSS, simply run:
+To build an optimized version of your CSS and b4w model, simply run:
 
 ```bash
 # Using npm
@@ -56,6 +59,3 @@ npm run production
 # Using Yarn
 yarn run production
 ```
-
-After that's done, check out `./public/build/tailwind.css` to see the optimized output.
-
