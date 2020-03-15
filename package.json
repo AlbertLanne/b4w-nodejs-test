@@ -3,9 +3,7 @@
     "serve": "webpack && cross-env NODE_ENV=development concurrently \"postcss public/tailwind.css -o public/build/tailwind.css --watch\"  \"live-server ./public\"",
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
     "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
-    "start": "npm run serve",
     "webpack": "webpack",
-    "autre": "webpack-dev-server",
     "webpack_prod": "webpack --config=webpack.prod.js",
     "start_prod": "webpack-dev-server --config=webpack.prod.js"
   },

@@ -1,6 +1,14 @@
-# Tailwind CSS Playground
+# b4w example
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+
+![Alt Text](https://i.imgur.com/dpp1drL.gif)
+
+
+A big thank to JM- x -BANANIA-#7665 for the prototype. 
+
+![Alt Text](https://cdn.discordapp.com/attachments/679714791660453936/687421757887479855/image0.jpg)
+
+A simple starter project for playing b4w with webpack and recent css framework.
 
 To get started:
 
@@ -51,3 +59,4 @@ yarn run production
 ```
 
 After that's done, check out `./public/build/tailwind.css` to see the optimized output.
+
