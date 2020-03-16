@@ -1,4 +1,4 @@
-# B4w starter example
+# b4w-nodejs-test
 
 ---
 
@@ -16,7 +16,7 @@ To get started:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/AlbertLanne/b4w_webpack_demo.git
+    git clone https://github.com/AlbertLanne/b4w-nodejs-test.git
 
     cd b4w-webpack-demo
     ```
