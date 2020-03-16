@@ -1,3 +1,5 @@
+(https://travis-ci.org/dtinker/discord-resources) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/T5ydDy7)
+
 # B4w starter example
 
 ---
