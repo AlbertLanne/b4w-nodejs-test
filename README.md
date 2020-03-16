@@ -16,7 +16,7 @@ To get started:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
+    git clone https://github.com/AlbertLanne/b4w_webpack_demo.git
 
     cd b4w-webpack-demo
     ```
